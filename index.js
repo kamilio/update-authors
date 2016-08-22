@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var shell = require('shelljs');
 var jsonfile = require('jsonfile');
 
