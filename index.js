@@ -8,7 +8,6 @@ if (!shell.which('git')) {
     shell.exit(1);
 }
 
-shell.cd('../setupstore/client');
 var contributors = shell.exec('git shortlog -s -n < /dev/tty', {silent: true});
 
 if (contributors.code !== 0) {
