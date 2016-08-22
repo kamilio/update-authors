@@ -41,9 +41,6 @@ var packageFile = cwd + '/package.json';
 
 var package = jsonfile.readFileSync(packageFile);
 package.author = contributors;
-jsonfile.writeFileSync(packageFile, package);
+jsonfile.writeFileSync(packageFile, package, {spaces: 2});
 
-shell.echo('------------------');
 shell.echo('Updated authors field in package.json to "' + contributors + '"');
-shell.echo('------------------');
-shell.echo('If you are seeing duplicate names you might want to consider creating file .mailmap, see git docs.');
