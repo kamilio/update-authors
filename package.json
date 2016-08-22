@@ -1,0 +1,16 @@
+{
+  "name": "node-update-authors",
+  "version": "1.0.0",
+  "description": "Update authors in package.json",
+  "scripts": {},
+  "author": "Kamil Jopek",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "update-authors": "index.js"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.1",
+    "shelljs": "^0.7.3"
+  }
+}
