@@ -1,6 +1,6 @@
 {
   "name": "update-authors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Update authors in package.json",
   "scripts": {},
   "author": "Kamil Jopek",
